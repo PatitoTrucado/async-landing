@@ -4,9 +4,20 @@
   "description": "Async-landing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatitoTrucado/async-landing"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Ivan Quintero, toipiola123@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatitoTrucado/async-landing/issues"
+  },
+  "homepage": "https://github.com/PatitoTrucado/async-landing/#readme",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
